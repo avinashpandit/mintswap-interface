@@ -1,4 +1,4 @@
-import { ChainId, JSBI, Pair, Route, Token, TokenAmount, Trade, TradeType } from '@bscswap/sdk'
+import { ChainId, JSBI, Pair, Route, Token, TokenAmount, Trade, TradeType } from 'mintswap-sdk'
 import { computeTradePriceBreakdown } from './prices'
 
 describe('prices', () => {

@@ -1,4 +1,4 @@
-import { currencyEquals, Trade } from '@bscswap/sdk'
+import { currencyEquals, Trade } from 'mintswap-sdk'
 import React, { useCallback, useMemo } from 'react'
 import TransactionConfirmationModal, {
   ConfirmationModalContent,

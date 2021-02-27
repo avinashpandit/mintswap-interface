@@ -1,4 +1,4 @@
-import { ChainId } from '@bscswap/sdk'
+import { ChainId } from 'mintswap-sdk'
 import React from 'react'
 import { isMobile } from 'react-device-detect'
 import { Text } from 'rebass'
@@ -159,8 +159,8 @@ const NETWORK_LABELS: { [chainId in ChainId]: string | null } = {
   [ChainId.ROPSTEN]: 'Wrong Network',
   [ChainId.GÖRLI]: 'Wrong Network',
   [ChainId.KOVAN]: 'Wrong Network',
-  [ChainId.BSC_MAINNET]: null,
-  [ChainId.BSC_TESTNET]: 'Testnet'
+  [ChainId.MINT_MAINNET]: null,
+  [ChainId.MINT_TESTNET]: 'Testnet'
 }
 
 export default function Header() {
