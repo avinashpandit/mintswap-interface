@@ -3,7 +3,7 @@ import { ChainId, JSBI, Percent, Token, WETH } from 'mintswap-sdk'
 
 import { injected, binanceinjected, walletconnect, walletlink } from '../connectors'
 
-export const ROUTER_ADDRESS = '0xd954551853F55deb4Ae31407c423e67B1621424A'
+export const ROUTER_ADDRESS = '0x57eAc18D2CD1132f24e9888A6D0418a235364c15'
 
 // a list of tokens by chain
 type ChainTokenList = {
@@ -159,5 +159,5 @@ export const BLOCKED_PRICE_IMPACT_NON_EXPERT: Percent = new Percent(JSBI.BigInt(
 export const MIN_ETH: JSBI = JSBI.exponentiate(JSBI.BigInt(10), JSBI.BigInt(16)) // .01 ETH
 export const BETTER_TRADE_LINK_THRESHOLD = new Percent(JSBI.BigInt(75), JSBI.BigInt(10000))
 
-// the Uniswap Default token list lives here
-export const DEFAULT_TOKEN_LIST_URL = 'https://tokens.bscswap.com/tokens.json'
+// the Uniswap Default token list lives here - 
+export const DEFAULT_TOKEN_LIST_URL = 'https://raw.githubusercontent.com/avinashpandit/token-list/main/mint.tokenlist.json'
