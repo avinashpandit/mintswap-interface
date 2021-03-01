@@ -21,13 +21,8 @@ import Web3Status from '../Web3Status'
 const Nav: React.FC = () => {
   return (
     <StyledNav>
-      <StyledAbsoluteLink href="https://bscbonus.com" target="_blank" >Welcome bonus</StyledAbsoluteLink>
-      <StyledAbsoluteLink href="https://trade.bscswap.com/#/swap" className="active">Trade</StyledAbsoluteLink>
-      <StyledAbsoluteLink href="https://bscswap.info" target="_blank">Analysis</StyledAbsoluteLink>
-      {/* <StyledAbsoluteLink href="https://bscswap.pro" target="_blank">BSCswap Pro</StyledAbsoluteLink> */}
-      {/* <StyledAbsoluteLink href="https://stable.bscswap.com" target="_blank">BSCswap Stable</StyledAbsoluteLink> */}
-      <StyledAbsoluteLink href="https://degenswap.io" target="_blank">DegenSwap</StyledAbsoluteLink>
-      <StyledAbsoluteLink href="https://pool.bscswap.com" target="_blank">LaunchField</StyledAbsoluteLink>
+      <StyledAbsoluteLink href="https://bscbonus.com" target="_blank" >Mint Exchange</StyledAbsoluteLink>
+      <StyledAbsoluteLink href="http://localhost:5000/#/swap" className="active">Swap</StyledAbsoluteLink>
     </StyledNav>
   )
 }

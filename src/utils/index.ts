@@ -976,7 +976,7 @@ const ETHERSCAN_PREFIXES: { [chainId in ChainId]: string } = {
   4: 'rinkeby.etherscan.io',
   5: 'goerli.etherscan.io',
   42: 'kovan.etherscan.io',
-  1281: 'node.mintexchange.io',
+  1281: 'explorer.mintexchange.io',
   1282: 'node.mintexchange.io'
 }
 
