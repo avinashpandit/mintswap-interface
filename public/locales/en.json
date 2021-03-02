@@ -98,7 +98,7 @@
   "telegram": "Telegram",
   "discord": "Discord",
   "code": "Code",
-  "bscscancontract": "BscScan Contract",
+  "bscscancontract": "MintSwap Contract",
   "transactionSettings": "Transaction Settings",
   "interfaceSettings": "Interface Settings",
   "toggleExpertMode": "Toggle Expert Mode",

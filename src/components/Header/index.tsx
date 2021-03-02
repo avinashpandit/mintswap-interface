@@ -5,8 +5,8 @@ import { Text } from 'rebass'
 
 import styled from 'styled-components'
 
-import Logo from '../../assets/images/logo.png'
-import LogoDark from '../../assets/images/logo_white.png'
+import Logo from '../../assets/images/MintFF4A00xRwLine.png'
+import LogoDark from '../../assets/images/MintFF4A00xRwLine.png'
 import { useActiveWeb3React } from '../../hooks'
 import { useDarkModeManager } from '../../state/user/hooks'
 import { useETHBalances } from '../../state/wallet/hooks'
@@ -21,7 +21,6 @@ import Web3Status from '../Web3Status'
 const Nav: React.FC = () => {
   return (
     <StyledNav>
-      <StyledAbsoluteLink href="https://bscbonus.com" target="_blank" >Mint Exchange</StyledAbsoluteLink>
       <StyledAbsoluteLink href="http://localhost:5000/#/swap" className="active">Swap</StyledAbsoluteLink>
     </StyledNav>
   )
@@ -168,11 +167,10 @@ export default function Header() {
     <HeaderFrame>
       <RowBetween style={{ alignItems: 'flex-start'}} padding="1rem 1rem 0 1rem" >
         <HeaderElement>
-          <Title href=".">
             <UniIcon>
-              <img style={{ height: 100, width:400, marginTop:-35 }} src={isDark ? LogoDark : Logo} alt="logo" />
+              <img style={{ height: 30, width:30 }} src={isDark ? LogoDark : Logo} alt="logo" />
             </UniIcon>
-          </Title>
+            <StyledAbsoluteLink href="http://localhost:3000/#/swap" className="active">MintSwap</StyledAbsoluteLink>          
         </HeaderElement>
         <Nav />
         <HeaderControls>
@@ -183,7 +181,7 @@ export default function Header() {
             <AccountElement active={!!account} style={{ pointerEvents: 'auto' }}>
               {account && userEthBalance ? (
                 <BalanceText style={{ flexShrink: 0 }} pl="0.75rem" pr="0.5rem" fontWeight={500}>
-                  {userEthBalance?.toSignificant(4)} BNB
+                  {userEthBalance?.toSignificant(4)} MNT
                 </BalanceText>
               ) : null}
               <Web3Status />

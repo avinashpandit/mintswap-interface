@@ -97,7 +97,7 @@
   "telegram": "Telegram",
   "discord": "Discord",
   "code": "Code",
-  "bscscancontract": "BscScan Contract",
+  "bscscancontract": "MintSwap Contract",
   "transactionSettings": "거래 설정",
   "interfaceSettings": "인터페이스 설정",
   "toggleExpertMode": "전문가 모드 전환",
