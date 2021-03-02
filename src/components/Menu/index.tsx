@@ -114,47 +114,8 @@ export default function Menu() {
       </StyledMenuButton>
       {chainId && open && (
         <MenuFlyout>
-          <MenuItem id="link" href={getAnalysisLink(chainId)}>
-            <PieChart size={14} />
-            {t('analytics')}
-          </MenuItem>
-          <MenuItem id="link" href="https://twitter.com/bscswapprotocol">
-            <Send size={14} />
-            Twitter
-          </MenuItem>
-          <MenuItem id="link" href="https://t.me/bscswap">
-            <Send size={14} />
-            {t('telegram')}
-          </MenuItem>
-          <MenuItem id="link" href="https://discord.gg/mCZSA3w">
-            <MessageCircle size={14} />
-            {t('discord')}
-          </MenuItem>
-          <MenuItem id="link" href="https://bscswap.com/WeChat.jpg">
-            <MessageCircle size={14} />
-            WeChat
-          </MenuItem>
-          <MenuItem id="link" href={CODE_LINK}>
-            <Code size={14} />
-            {t('code')}
-          </MenuItem>
-          <MenuItem id="link" href="https://medium.com/@bscswapprotocol">
-            <BookOpen size={14} />
-            Medium
-          </MenuItem>
-          <MenuItem id="link" href="https://dappradar.com/binance-smart-chain/exchanges/bscswap">
-            <CheckCircle size={14} />
-            DappRadar
-          </MenuItem>
-          <MenuItem id="link" href="https://www.coingecko.com/en/exchanges/bscswap">
-            <CheckCircle size={14} />
-            CoinGecko
-          </MenuItem>
-          <MenuItem id="link" href="https://coinmarketcap.com/exchanges/bscswap">
-            <CheckCircle size={14} />
-            CoinMarketCap
-          </MenuItem>
-          <MenuItem id="link" href={getEtherscanLink(chainId, '0xd954551853F55deb4Ae31407c423e67B1621424A', 'address')}>
+
+          <MenuItem id="link" href={getEtherscanLink(chainId, '0x9557b4E0Fe6bd94544E4D43E52C5c8f8F771535b', 'address')}>
             <BookOpen size={14} />
             {t('bscscancontract')}
           </MenuItem>
