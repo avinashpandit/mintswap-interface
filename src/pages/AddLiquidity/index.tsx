@@ -173,9 +173,11 @@ export default function AddLiquidity({
     }
 
     setAttemptingTxn(true)
-    await    method(...args, {
+    await estimate(...args, value ? { value } : {})
+      .then(estimatedGasLimit =>
+        method(...args, {
           ...(value ? { value } : {}),
-          gasLimit: BigNumber.from(6000000)
+          gasLimit: calculateGasMargin(estimatedGasLimit)
         }).then(response => {
           setAttemptingTxn(false)
 
@@ -199,7 +201,14 @@ export default function AddLiquidity({
             label: [currencies[Field.CURRENCY_A]?.symbol, currencies[Field.CURRENCY_B]?.symbol].join('/')
           })
         })
-      
+      )
+      .catch(error => {
+        setAttemptingTxn(false)
+        // we only care if the error is something _other_ than the user rejected the tx
+        if (error?.code !== 4001) {
+          console.error(error)
+        }
+      })
   }
 
   const modalHeader = () => {
