@@ -10176,10 +10176,10 @@ minipass@^3.0.0, minipass@^3.1.1:
   dependencies:
     yallist "^4.0.0"
 
-mintswap-sdk@1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/mintswap-sdk/-/mintswap-sdk-1.0.6.tgz#e2a64e6c3e6dcd645f90d528d06ac9cbedbad3e4"
-  integrity sha512-dwd3zqfjrzHWac64ItAVPPYoqniwuSr8CyUiV+pgPJBu2A7ATmOgFtlqG4JVwdCeyny4mT4Aa1v783DHV2bEmg==
+mintswap-sdk@1.1.6:
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/mintswap-sdk/-/mintswap-sdk-1.1.6.tgz#db733aab7997509305e6b31af948260d0a8c48ab"
+  integrity sha512-63hDwLv7LtCK01VK5ldq6iVUN9yXvzX4n7U8GMv14ydLFU3nLufqR2lcioDWFBGPTSeR5p2sj1XTmKBMQ4nxHw==
   dependencies:
     big.js "^5.2.2"
     decimal.js-light "^2.5.0"
