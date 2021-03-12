@@ -102,6 +102,15 @@ export const SUPPORTED_WALLETS: { [key: string]: WalletInfo } = {
     color: '#010101',
     primary: true
   },
+  WALLET_CONNECT: {
+    connector: walletconnect,
+    name: 'WalletConnect',
+    iconName: 'walletConnectIcon.svg',
+    description: 'Connect to MintWallet ...',
+    href: null,
+    color: '#4196FC',
+    mobile: true
+  },
   BINANCE: {
     connector: binanceinjected,
     name: 'Binance Chain Wallet',
