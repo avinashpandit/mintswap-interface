@@ -30,7 +30,8 @@ export const binanceinjected = new BinanceConnector({
 // mainnet only
 export const walletconnect = new WalletConnectConnector({
   rpc: { 1281: NETWORK_URL },
-  bridge: 'https://bridge.walletconnect.org',
+  //bridge: 'https://bridge.walletconnect.org',
+  bridge: 'https://walletconnect.mintexchange.io',
   qrcode: true,
   pollingInterval: 15000
 })
