@@ -3,7 +3,7 @@ import { ChainId, JSBI, Percent, Token, WETH } from 'mintswap-sdk'
 
 import { injected, binanceinjected, walletconnect, walletlink } from '../connectors'
 
-export const ROUTER_ADDRESS = '0x9557b4E0Fe6bd94544E4D43E52C5c8f8F771535b'
+export const ROUTER_ADDRESS = '0x758719bD66bbD4F9Ebb8672dDF4E5869d1f666cE'
 
 // a list of tokens by chain
 type ChainTokenList = {
