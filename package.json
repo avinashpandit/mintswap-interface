@@ -23,7 +23,7 @@
     "@types/testing-library__cypress": "^5.0.5",
     "@typescript-eslint/eslint-plugin": "^2.31.0",
     "@typescript-eslint/parser": "^2.31.0",
-    "mintswap-sdk": "1.1.6",
+    "mintswap-sdk": "1.1.7",
     "@uniswap/token-lists": "^1.0.0-beta.16",
     "@web3-react/core": "^6.0.9",
     "@web3-react/fortmatic-connector": "^6.0.9",
